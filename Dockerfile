@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM gcc:14-bookworm AS build
+FROM gcc:15-bookworm AS build
 # Версии пакетов задаёт базовый образ; сам образ обновляет Dependabot.
 # hadolint ignore=DL3008
 RUN apt-get update \
